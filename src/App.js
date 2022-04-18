@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Finally, I use a turnery to render an image if there is a value in the state or a paragraph with the words loading inside if it is empty. */}
+        {/* Finally, I use a ternary to render an image if there is a value in the state or a paragraph with the words loading inside if it is empty. */}
         {githubData ? (
           <img
             // If you see the data example from earlier, it returns an array, so I need to access that before the object values.
